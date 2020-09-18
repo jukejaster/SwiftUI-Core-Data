@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  QuotesView.swift
 //  Quotely
 //
 //  Created by Juke Jaster on 9/17/20.
@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct QuotesView: View {
     var body: some View {
         Text("Hello, World!")
     }
@@ -16,6 +16,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        QuotesView()
     }
 }

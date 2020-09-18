@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		0B65019D25145B31001D7E96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B65019C25145B31001D7E96 /* AppDelegate.swift */; };
 		0B65019F25145B31001D7E96 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B65019E25145B31001D7E96 /* SceneDelegate.swift */; };
-		0B6501A125145B31001D7E96 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6501A025145B31001D7E96 /* ContentView.swift */; };
+		0B6501A125145B31001D7E96 /* QuotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6501A025145B31001D7E96 /* QuotesView.swift */; };
 		0B6501A325145B32001D7E96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B6501A225145B32001D7E96 /* Assets.xcassets */; };
 		0B6501A625145B32001D7E96 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B6501A525145B32001D7E96 /* Preview Assets.xcassets */; };
 		0B6501A925145B32001D7E96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B6501A725145B32001D7E96 /* LaunchScreen.storyboard */; };
 		0B6501B425145B33001D7E96 /* QuotelyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6501B325145B33001D7E96 /* QuotelyTests.swift */; };
 		0B6501BF25145B33001D7E96 /* QuotelyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6501BE25145B33001D7E96 /* QuotelyUITests.swift */; };
+		0B6501CE25145DF9001D7E96 /* Quotely.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0B6501CC25145DF9001D7E96 /* Quotely.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +39,7 @@
 		0B65019925145B31001D7E96 /* Quotely.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quotely.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B65019C25145B31001D7E96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0B65019E25145B31001D7E96 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0B6501A025145B31001D7E96 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0B6501A025145B31001D7E96 /* QuotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesView.swift; sourceTree = "<group>"; };
 		0B6501A225145B32001D7E96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B6501A525145B32001D7E96 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0B6501A825145B32001D7E96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +50,7 @@
 		0B6501BA25145B33001D7E96 /* QuotelyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuotelyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B6501BE25145B33001D7E96 /* QuotelyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotelyUITests.swift; sourceTree = "<group>"; };
 		0B6501C025145B33001D7E96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B6501CD25145DF9001D7E96 /* Quotely.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Quotely.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +103,12 @@
 			children = (
 				0B65019C25145B31001D7E96 /* AppDelegate.swift */,
 				0B65019E25145B31001D7E96 /* SceneDelegate.swift */,
-				0B6501A025145B31001D7E96 /* ContentView.swift */,
+				0B6501A025145B31001D7E96 /* QuotesView.swift */,
 				0B6501A225145B32001D7E96 /* Assets.xcassets */,
 				0B6501A725145B32001D7E96 /* LaunchScreen.storyboard */,
 				0B6501AA25145B32001D7E96 /* Info.plist */,
 				0B6501A425145B32001D7E96 /* Preview Content */,
+				0B6501CC25145DF9001D7E96 /* Quotely.xcdatamodeld */,
 			);
 			path = Quotely;
 			sourceTree = "<group>";
@@ -269,7 +272,8 @@
 			files = (
 				0B65019D25145B31001D7E96 /* AppDelegate.swift in Sources */,
 				0B65019F25145B31001D7E96 /* SceneDelegate.swift in Sources */,
-				0B6501A125145B31001D7E96 /* ContentView.swift in Sources */,
+				0B6501A125145B31001D7E96 /* QuotesView.swift in Sources */,
+				0B6501CE25145DF9001D7E96 /* Quotely.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -594,6 +598,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0B6501CC25145DF9001D7E96 /* Quotely.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0B6501CD25145DF9001D7E96 /* Quotely.xcdatamodel */,
+			);
+			currentVersion = 0B6501CD25145DF9001D7E96 /* Quotely.xcdatamodel */;
+			path = Quotely.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 0B65019125145B30001D7E96 /* Project object */;
 }
