@@ -16,6 +16,8 @@
 		0B6501B425145B33001D7E96 /* QuotelyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6501B325145B33001D7E96 /* QuotelyTests.swift */; };
 		0B6501BF25145B33001D7E96 /* QuotelyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6501BE25145B33001D7E96 /* QuotelyUITests.swift */; };
 		0B6501CE25145DF9001D7E96 /* Quotely.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0B6501CC25145DF9001D7E96 /* Quotely.xcdatamodeld */; };
+		0B88FD63251663B100F1D89B /* View+BarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B88FD62251663B100F1D89B /* View+BarButton.swift */; };
+		0B88FD65251663CE00F1D89B /* AddQuoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B88FD64251663CE00F1D89B /* AddQuoteView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		0B6501BE25145B33001D7E96 /* QuotelyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotelyUITests.swift; sourceTree = "<group>"; };
 		0B6501C025145B33001D7E96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0B6501CD25145DF9001D7E96 /* Quotely.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Quotely.xcdatamodel; sourceTree = "<group>"; };
+		0B88FD62251663B100F1D89B /* View+BarButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+BarButton.swift"; sourceTree = "<group>"; };
+		0B88FD64251663CE00F1D89B /* AddQuoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddQuoteView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +105,16 @@
 		0B65019B25145B31001D7E96 /* Quotely */ = {
 			isa = PBXGroup;
 			children = (
+				0B88FD64251663CE00F1D89B /* AddQuoteView.swift */,
+				0B6501A025145B31001D7E96 /* QuotesView.swift */,
+				0B6501CC25145DF9001D7E96 /* Quotely.xcdatamodeld */,
+				0B88FD62251663B100F1D89B /* View+BarButton.swift */,
 				0B65019C25145B31001D7E96 /* AppDelegate.swift */,
 				0B65019E25145B31001D7E96 /* SceneDelegate.swift */,
-				0B6501A025145B31001D7E96 /* QuotesView.swift */,
 				0B6501A225145B32001D7E96 /* Assets.xcassets */,
 				0B6501A725145B32001D7E96 /* LaunchScreen.storyboard */,
 				0B6501AA25145B32001D7E96 /* Info.plist */,
 				0B6501A425145B32001D7E96 /* Preview Content */,
-				0B6501CC25145DF9001D7E96 /* Quotely.xcdatamodeld */,
 			);
 			path = Quotely;
 			sourceTree = "<group>";
@@ -273,6 +279,8 @@
 				0B65019D25145B31001D7E96 /* AppDelegate.swift in Sources */,
 				0B65019F25145B31001D7E96 /* SceneDelegate.swift in Sources */,
 				0B6501A125145B31001D7E96 /* QuotesView.swift in Sources */,
+				0B88FD65251663CE00F1D89B /* AddQuoteView.swift in Sources */,
+				0B88FD63251663B100F1D89B /* View+BarButton.swift in Sources */,
 				0B6501CE25145DF9001D7E96 /* Quotely.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
